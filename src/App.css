@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input {
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  margin: auto;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.review-list {
+  border: 1px solid blue;
+  margin: 3px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  width: 350px;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.update-btn {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
