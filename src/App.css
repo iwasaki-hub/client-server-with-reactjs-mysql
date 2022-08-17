@@ -48,3 +48,20 @@ button:hover {
   color: white;
   font-weight: bold;
 }
+
+nav {
+  background-color: gray;
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: large;
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
